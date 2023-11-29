@@ -11,6 +11,7 @@ import Layout from './component/Layout/Layout.jsx';
 import Home from './component/Home/Home.jsx';
 import About from './component/About/About.jsx';
 import Order from './component/Order/Order.jsx';
+import Grandpa from './component/Grandpa/Grandpa.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:'/order',
         element:<Order></Order>
+      },
+      {
+        path:'/grandpa',
+        element:<Grandpa></Grandpa>
       },
     ]
   },
